@@ -152,7 +152,7 @@ a{
     width: 100%;
     border: solid #007cba;
     display: flex;
-    background-image: url(http://aomua.maugiaodien.com/wp-content/uploads/2017/08/banner1.jpg);
+    background-image: url(background.png);
 }
 .header-photo{
     width: 30%;
@@ -258,7 +258,7 @@ width: 30%;
 h1 {
     text-align: center;
     color:#007cba;
-    background-image:url(http://aomua.maugiaodien.com/wp-content/uploads/2017/08/banner1.jpg) ;
+    background-image:url(background.png) ;
     width: 100%;
     height: 60px;
 }

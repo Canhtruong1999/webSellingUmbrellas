@@ -13,14 +13,14 @@ class product {
 }
 let tb = document.getElementById('products')
 let products = [
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/o-tu-dong-chong-uv-tan-2-lop-007.jpg", "Ô TỰ ĐỘNG NAM", "Ô tự động cán da 2 lớp tán cao cấp cho doanh nhân", 500000, 430000, 7, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-can-da-2-lop-tan-cao-cap-cho-doanh-nhan/", 1),
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/t_________ng_10_nan_B586_m__u_n__u2.jpg", "Ô TỰ ĐỘNG NAM", "Ô tự động 10 nan cao cấp cho doanh nhân B586", 450000, 420000, 7, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-10-nan-cao-cap-cho-doanh-nhan-b586/", 1),
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/o-tu-dong-lotosblume-can-go-den1-1.jpg", "Ô TỰ ĐỘNG NAM", "Ô tự động Lotosblume cán gỗ màu đen", 450000, 400000, 11, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-lotosblume-can-go-mau-den-2/", 1),
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/o-gap-nguoc-tu-dong-01.jpg", "Ô TỰ ĐỘNG NAM", "Ô gấp ngược tự động không hoa văn ngày mưa", 750000, 560000, 5, "http://aomua.maugiaodien.com/cua-hang/o-gap-nguoc-tu-dong-cao-cap-cho-doanh-nhan/", 1),
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/o-tu-dong-mercedes-benz-mau-den1.jpg", "Ô TỰ ĐỘNG NAM", "Bất ngờ với công năng của ô dù loại to MERCEDES-BENZ", 630000, 580000, 8, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-mercedes-benz-mau-den-cho-nam/", 1),
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/o-tu-dong-lotosblume-can-go-den02.jpg", "Ô TỰ ĐỘNG NAM", "Ô tự động LOTOSBLUME cán gỗ màu đen", 600000, 580000, 5, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-lotosblume-can-go-mau-den/", 2),
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/o-tu-dong-chong-lat-dep-02.jpg", "Ô TỰ ĐỘNG NAM", "Ô golf tự động chống lật rechar sang trọng", 450000, 400000, 11, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-chong-lat-rechar/", 1),
-    new product("http://aomua.maugiaodien.com/wp-content/uploads/2017/08/123.jpg", "Ô TỰ ĐỘNG NAM", "Ô tự động mercedes-benz màu xanh lựa chọn hoàn hảo cho bạn", 560000, 450000, 10, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-mercedes-benz-mau-xanh/", 1)
+    new product("sp1.png", "Ô TỰ ĐỘNG NAM", "Ô tự động cán da 2 lớp tán cao cấp cho doanh nhân", 500000, 430000, 7, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-can-da-2-lop-tan-cao-cap-cho-doanh-nhan/", 1),
+    new product("sp2.png", "Ô TỰ ĐỘNG NAM", "Ô tự động 10 nan cao cấp cho doanh nhân B586", 450000, 420000, 7, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-10-nan-cao-cap-cho-doanh-nhan-b586/", 1),
+    new product("sp3.png", "Ô TỰ ĐỘNG NAM", "Ô tự động Lotosblume cán gỗ màu đen", 450000, 400000, 11, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-lotosblume-can-go-mau-den-2/", 1),
+    new product("sp4.png", "Ô TỰ ĐỘNG NAM", "Ô gấp ngược tự động không hoa văn ngày mưa", 750000, 560000, 5, "http://aomua.maugiaodien.com/cua-hang/o-gap-nguoc-tu-dong-cao-cap-cho-doanh-nhan/", 1),
+    new product("sp5.png", "Ô TỰ ĐỘNG NAM", "Bất ngờ với công năng của ô dù loại to MERCEDES-BENZ", 630000, 580000, 8, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-mercedes-benz-mau-den-cho-nam/", 1),
+    new product("sp6.png", "Ô TỰ ĐỘNG NAM", "Ô tự động LOTOSBLUME cán gỗ màu đen", 600000, 580000, 5, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-lotosblume-can-go-mau-den/", 2),
+    new product("sp7.png", "Ô TỰ ĐỘNG NAM", "Ô golf tự động chống lật rechar sang trọng", 450000, 400000, 11, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-chong-lat-rechar/", 1),
+    new product("sp8.png", "Ô TỰ ĐỘNG NAM", "Ô tự động mercedes-benz màu xanh lựa chọn hoàn hảo cho bạn", 560000, 450000, 10, "http://aomua.maugiaodien.com/cua-hang/o-tu-dong-mercedes-benz-mau-xanh/", 1)
 ]
 //  tb.innerHTML+='<div><img class="photo" src="http://aomua.maugiaodien.com/wp-content/uploads/2017/08/banner69-e1607875478509.jpg" alt=""></div>'
 for (let i = 0; i < products.length; i++) {
